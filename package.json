@@ -1,0 +1,22 @@
+{
+  "name": "hw9-readme-generator",
+  "version": "1.0.0",
+  "description": "a readme generator using js and npm/inquirer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagegrayson/HW9-Readme-Generator.git"
+  },
+  "author": "Sage Grayson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagegrayson/HW9-Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/sagegrayson/HW9-Readme-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
