@@ -1,8 +1,9 @@
 
-# Readme Generator
+# README Generator
 ## Description
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-This project uses javascript with fs and inquirer dependencies
+[![Creative Commons](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/licenses/)
+
+This readme generator uses javascript and inquirer
 ## Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,13 +11,14 @@ This project uses javascript with fs and inquirer dependencies
 - [License](#license)
 - [Contact](#contact)
 ## Installation
-test installation text
+installation test text
 ## Usage
-test usage text
+usage test text
 ## Contributors
-none
+
 ## License
-The project uses the [MIT](https://opensource.org/licenses/MIT) license.
+The project uses the [Creative Commons](https://creativecommons.org/licenses/) license.
 ## Contact
-Link to my github: [sagegrayson](github.com/sagegrayson)
-If you'd like to contact me, email me at [skaseyg@gmail.com](#mailto:skaseyg@gmail.com)
+Link to my github: [sagegrayson](https://github.com/sagegrayson)
+
+If you'd like to contact me, email me at [skaseyg@gmail.com](mailto:skaseyg@gmail.com).

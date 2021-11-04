@@ -75,7 +75,8 @@ ${data.contributers}
 ## License
 The project uses the [${data.license}](${renderLicenseLink(data.license)}) license.
 ## Contact
-Link to my github: [${data.username}](github.com/${data.username})
+Link to my github: [${data.username}](https://github.com/${data.username})
+
 If you'd like to contact me, email me at [${data.useremail}](mailto:${data.useremail})
 `;
 }
