@@ -11,12 +11,12 @@ function renderLicenseBadge(license) {
 		return "https://img.shields.io/badge/License-GPLv3-blue.svg";
 	} else if (license === "MIT") {
 		return "https://img.shields.io/badge/License-MIT-yellow.svg";
-	// } else if (license === "Microsoft Public") {
-	// 	return "";
+		// } else if (license === "Microsoft Public") {
+		// 	return "";
 	} else if (license === "Mozilla Public") {
 		return "https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg";
-	// } else if (license === "Open Software") {
-	// 	return "";
+		// } else if (license === "Open Software") {
+		// 	return "";
 	} else {
 		return "";
 	}
@@ -35,12 +35,12 @@ function renderLicenseLink(license) {
 		return "https://www.gnu.org/licenses/gpl-3.0.en.html";
 	} else if (license === "MIT") {
 		return "https://opensource.org/licenses/MIT";
-	// } else if (license === "Microsoft Public") {
-	// 	return "https://opensource.org/licenses/MS-PL";
+		// } else if (license === "Microsoft Public") {
+		// 	return "https://opensource.org/licenses/MS-PL";
 	} else if (license === "Mozilla Public") {
 		return "https://www.mozilla.org/en-US/MPL/";
-	// } else if (license === "Open Software") {
-	// 	return "https://opensource.org/licenses/OSL-3.0";
+		// } else if (license === "Open Software") {
+		// 	return "https://opensource.org/licenses/OSL-3.0";
 	} else {
 		return "";
 	}
@@ -53,13 +53,12 @@ function renderLicenseLink(license) {
 // consolidated into main function
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-return `
+// prettier-ignore
+function generateMarkdown(data) {return `
 # ${data.title}
 ## Description
-[![${data.license}](${renderLicenseBadge(data.license)})](${renderLicenseLink(
-	data.license
-)})
+[![${data.license}](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
+
 ${data.description}
 ## Contents
 - [Installation](#installation)
@@ -74,14 +73,10 @@ ${data.usage}
 ## Contributors
 ${data.contributers}
 ## License
-The project uses the [${data.license}](${renderLicenseLink(
-	data.license
-)}) license.
+The project uses the [${data.license}](${renderLicenseLink(data.license)}) license.
 ## Contact
 Link to my github: [${data.username}](github.com/${data.username})
-If you'd like to contact me, email me at [${data.useremail}](#mailto:${
-	data.useremail
-})
+If you'd like to contact me, email me at [${data.useremail}](mailto:${data.useremail})
 `;
 }
 
