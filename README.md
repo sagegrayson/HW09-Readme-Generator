@@ -10,6 +10,7 @@ When installed, use the command "node index.js". After the user has completed th
 
 ![Screenshot of Console](./assets/screenshot.png)
 
+[Demo Video](https://watch.screencastify.com/v/P5hkNAJkMdpf6DjMogNx)
 
 ## Contact
 
