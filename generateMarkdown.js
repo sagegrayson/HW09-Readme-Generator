@@ -55,25 +55,32 @@ function renderLicenseLink(license) {
 // TODO: Create a function to generate markdown for README
 // prettier-ignore
 function generateMarkdown(data) {return `
-# ${data.title}
+# ${data.title} [![${data.license}](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
+
 ## Description
-[![${data.license}](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
+![screenshot](assets/images/screenshot.png)
 
 ${data.description}
+
 ## Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
 - [Contact](#contact)
+
 ## Installation
 ${data.installation}
+
 ## Usage
 ${data.usage}
+
 ## Contributors
 ${data.contributers}
+
 ## License
 The project uses the [${data.license}](${renderLicenseLink(data.license)}) license.
+
 ## Contact
 Link to my github: [${data.username}](https://github.com/${data.username})
 

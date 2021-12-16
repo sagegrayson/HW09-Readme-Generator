@@ -1,3 +1,5 @@
+<!-- Might want to add a placeholder screenshot link -->
+
 # HW9-Readme-Generator
 
 ## Description
